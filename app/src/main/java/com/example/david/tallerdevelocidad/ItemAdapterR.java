@@ -38,7 +38,7 @@ public class ItemAdapterR  extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View rowView = convertView;
-        if(rowView == null){
+        if(convertView == null){
             //Se crea vista nueva
             //"Infla" el espacio con el contenido que tengamos
             LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
