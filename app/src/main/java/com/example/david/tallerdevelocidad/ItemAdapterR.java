@@ -15,7 +15,7 @@ import java.util.List;
  * Created by davic on 16/11/2017.
  */
 
-public class ItemAdapterR  extends BaseAdapter {
+public class ItemAdapterR extends BaseAdapter {
     private Context context;
     private List<ItemR> items;
     public ItemAdapterR(Context context, List<ItemR> items){
