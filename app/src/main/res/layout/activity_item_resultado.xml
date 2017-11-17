@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.david.tallerdevelocidad.ItemResultado">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Directo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagenResultado"
+            android:layout_width="?android:attr/listPreferredItemHeight"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tituloResultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#3f86a7"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/descripcionResultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19dp" />
+
+            <ImageView
+                android:id="@+id/estrellasResultado"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:contentDescription="TODO" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/preciotext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/masinfobtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

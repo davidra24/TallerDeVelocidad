@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.david.tallerdevelocidad.ItemParaderos">
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#3f86a7"
+            android:textSize="25dp" />
+        <TextView
+            android:id="@+id/descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/infobtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Mas info" />
+
+
+</LinearLayout>
